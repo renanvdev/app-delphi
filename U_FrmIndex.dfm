@@ -21,7 +21,7 @@ object FrmIndex: TFrmIndex
     Top = 280
     Width = 75
     Height = 25
-    Css = 'btn btn-primary'
+    Css = 'btn btn-success'
     RenderSize = False
     StyleRenderOptions.RenderSize = False
     StyleRenderOptions.RenderPosition = False
@@ -38,6 +38,7 @@ object FrmIndex: TFrmIndex
     Font.Style = []
     FriendlyName = 'btnLogin'
     TabOrder = 0
+    OnAsyncClick = btnLoginAsyncClick
   end
   object IWTemplateProcessorHTML1: TIWTemplateProcessorHTML
     TagType = ttIntraWeb

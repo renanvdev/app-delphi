@@ -1,0 +1,34 @@
+unit U_FrmIndex;
+
+interface
+
+uses
+  Classes, SysUtils, IWAppForm, IWApplication, IWColor, IWTypes, Vcl.Controls,
+  IWVCLBaseControl, IWBaseControl, IWBaseHTMLControl, IWControl, IWCompButton,
+  IWVCLComponent, IWBaseLayoutComponent, IWBaseContainerLayout,
+  IWContainerLayout, IWTemplateProcessorHTML;
+
+type
+  TFrmIndex = class(TIWAppForm)
+    IWTemplateProcessorHTML1: TIWTemplateProcessorHTML;
+    btnLogin: TIWButton;
+    procedure btnLoginClick(Sender: TObject);
+  public
+  end;
+
+implementation
+
+{$R *.dfm}
+
+
+procedure TFrmIndex.btnLoginClick(Sender: TObject);
+begin
+
+  PageContext.AddToInitProc('saudar()');
+  PageContext.AddToInitProc('xingar()');
+end;
+
+initialization
+  TFrmIndex.SetAsMainForm;
+
+end.

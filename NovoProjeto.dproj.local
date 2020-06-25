@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/06/25 13:44:54.843,=C:\Users\renan\Desktop\NovoProjeto\Unit1.pas</Transaction>
+    <Transaction>2020/06/25 13:44:56.641,=C:\Users\renan\Desktop\NovoProjeto\ServerController.pas</Transaction>
+    <Transaction>2020/06/25 13:44:56.673,=C:\Users\renan\Desktop\NovoProjeto\UserSessionUnit.pas</Transaction>
+    <Transaction>2020/06/25 13:45:33.684,C:\Users\renan\Desktop\NovoProjeto\U_FrmIndex.dfm=C:\Users\renan\Desktop\NovoProjeto\Unit1.dfm</Transaction>
+    <Transaction>2020/06/25 13:45:33.684,C:\Users\renan\Desktop\NovoProjeto\U_FrmIndex.pas=C:\Users\renan\Desktop\NovoProjeto\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
